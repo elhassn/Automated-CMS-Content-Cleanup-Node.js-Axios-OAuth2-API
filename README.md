@@ -35,3 +35,9 @@ git clone <your-repo-url>
 cd CMS-docs-url-cleaner
 npm install
 
+###
+The script supports a dry-run mode (example in usage below) that prints what would change without applying patches.
+Usage
+node remove-url.js --library "LibraryTitle" --url "/path-to-remove" --dry-run
+Example:
+node remove-url.js --library "Marketing Assets" --url "/legacy-cdn/file123" --dry-run
