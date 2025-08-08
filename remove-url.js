@@ -3,7 +3,7 @@
 
 # Sanitized script (save as `remove-url.js`)
 
-```javascript
+//javascript
 /**
  * Sanitized version — DO NOT commit real secrets.
  * Use environment variables or a secret manager.
